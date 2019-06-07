@@ -1,0 +1,16 @@
+1.write aprogram for swap two numbers
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int a,b,c;
+  printf("/n enter values a&b:");
+  scanf("%d%d",&a,&b);
+  c=a;
+  a=b;
+  b=c;
+  printf("/n value of a %d",a);
+  printf("/n value of b %d",b);
+  getch();
+ } 
